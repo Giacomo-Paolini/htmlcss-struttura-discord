@@ -1,5 +1,59 @@
+
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/* PROPRIETA' CONDIVISE */
+
+.boxed {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+/* MENÙ */
+
+#bg-menù {
+    min-height: 6.75em;
+    background-color: #ADD8E6 ;
+}
+
+#container-menù {
+    min-height: 4em;
+    padding: 1em;
+    width: 100em;
+    background-color: orange;
+}
+
+/* BANNER 1 */
+
+#bg-banner1 {
+    min-height: 41em;
+    background-color: #0000ff;
+}
+
+#container-banner1 {
+    min-height: 33em;
+    width: 75em;
+    background-color: #EE82EE;
 }
