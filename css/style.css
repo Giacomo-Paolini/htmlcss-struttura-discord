@@ -43,6 +43,11 @@
     width: 100%;
 }
 
+.container-banner-big {
+    min-height: 83em;
+    width: 100%;
+}
+
 /************** HEADER **************/
 /* MENÙ */
 
@@ -112,4 +117,10 @@
     background-color: #EE82EE;
     min-height: 41em;
     width: calc(100% / 3);
+}
+
+.green {
+    background-color: #228B22;
+    min-height: 75em;
+    width: 100%;
 }
