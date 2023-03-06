@@ -1,5 +1,5 @@
 
-/* RESET */
+/************** RESET **************/
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 
-/* PROPRIETA' CONDIVISE */
+/************** PROPRIETÀ CONDIVISE **************/
 
 .boxed {
     max-width: 1600px;
@@ -17,6 +17,13 @@
 
 .flex-center {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-reverse {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
@@ -31,6 +38,12 @@
     border: 2px dashed black;
 }
 
+.container-banner {
+    min-height: 41em;
+    width: 100%;
+}
+
+/************** HEADER **************/
 /* MENÙ */
 
 #bg-menù {
@@ -45,15 +58,58 @@
     background-color: orange;
 }
 
-/* BANNER 1 */
+/* BANNER HEADER*/
 
-#bg-banner1 {
+#bg-banner-header {
     min-height: 41em;
     background-color: #0000ff;
 }
 
-#container-banner1 {
+#container-banner-header {
     min-height: 33em;
     width: 75em;
     background-color: #EE82EE;
+}
+
+
+/************** MAIN **************/
+/* PROPRIETÀ CONDIVISE BANNER */
+
+.bg-white {
+    min-height: 50em;
+    background-color: #ffffff;
+}
+
+.bg-gray {
+    background-color: #D3D3D3;
+    min-height: 50em;
+}
+
+.blue {
+    background-color: #1E90FF;
+    min-height: 41em;
+    width: calc(100% / 3 * 2);
+}
+
+.pink {
+    background-color: #EE82EE;
+    min-height: 41em;
+    width: calc(100% / 3);
+}
+
+.bg-white {
+    min-height: 50em;
+    background-color: #ffffff;
+}
+
+.blue {
+    background-color: #1E90FF;
+    min-height: 41em;
+    width: calc(100% / 3 * 2);
+}
+
+.pink {
+    background-color: #EE82EE;
+    min-height: 41em;
+    width: calc(100% / 3);
 }
