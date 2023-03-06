@@ -38,15 +38,6 @@
     border: 2px dashed black;
 }
 
-.container-banner {
-    min-height: 41em;
-    width: 100%;
-}
-
-.container-banner-big {
-    min-height: 83em;
-    width: 100%;
-}
 
 /************** HEADER **************/
 /* MENÙ */
@@ -79,6 +70,16 @@
 
 /************** MAIN **************/
 /* PROPRIETÀ CONDIVISE BANNER */
+
+.container-banner {
+    min-height: 41em;
+    width: 100%;
+}
+
+.container-banner-big {
+    min-height: 83em;
+    width: 100%;
+}
 
 .bg-white {
     min-height: 50em;
@@ -123,4 +124,56 @@
     background-color: #228B22;
     min-height: 75em;
     width: 100%;
+}
+
+
+/************** FOOTER **************/
+/* PROPRIETÀ CONDIVISE FOOTER */
+
+.container-footer {
+    min-height: 50em;
+    width: 100%;
+}
+
+.bg-black {
+    background-color: #23272A;
+    min-height: 50em;
+}
+
+.aquamarine {
+    background-color: #20B2AA;
+    min-height: 48em;
+    width: calc(100% / 3 * 2);
+}
+
+.red {
+    background-color: #F08080;
+    min-height: 48em;
+    width: calc(100% / 3);
+}
+
+.border-white {
+    border: 2px dashed rgb(255, 255, 255);
+}
+
+hr {
+    color: white;
+}
+
+/* FOOTER ID */
+
+#bg-black-footer {
+    min-height: 6.75em;
+    background-color: #23272A;
+}
+
+#container-menù-footer {
+    min-height: 4em;
+    width: 100em;
+    background-color: #7FFFD4;
+}
+
+.footer-text {
+    padding: 0.5em;
+    background-color: #F08080;
 }
