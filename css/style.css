@@ -160,6 +160,11 @@ hr {
     color: white;
 }
 
+.footer-text {
+    padding: 0.5em;
+    background-color: #F08080;
+}
+
 /* FOOTER ID */
 
 #bg-black-footer {
@@ -171,9 +176,4 @@ hr {
     min-height: 4em;
     width: 100em;
     background-color: #7FFFD4;
-}
-
-.footer-text {
-    padding: 0.5em;
-    background-color: #F08080;
 }
