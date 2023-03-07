@@ -11,13 +11,24 @@
 /************** PROPRIETÀ CONDIVISE **************/
 
 .boxed {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -38,32 +49,49 @@
     border: 2px dashed black;
 }
 
+.text-left { text-align: left;}
+.text-center { text-align: center;}
+.text-right { text-align: right;}
+
+.bg-orange {background-color: orange;}
+
+
 
 /************** HEADER **************/
 /* MENÙ */
 
 #bg-menù {
-    min-height: 6.75em;
+    min-height: 5em;
     background-color: #ADD8E6 ;
 }
 
 #container-menù {
-    min-height: 4em;
+    min-height: 3em;
     padding: 1em;
     width: 100em;
-    background-color: orange;
 }
+
+.col20 {
+    min-height: 3em;
+    width: 20%;
+}
+
+.col60 {
+    min-height: 3em;
+    width: 60%;
+}
+
 
 /* BANNER HEADER*/
 
 #bg-banner-header {
-    min-height: 41em;
+    min-height: 31em;
     background-color: #0000ff;
 }
 
 #container-banner-header {
-    min-height: 33em;
-    width: 75em;
+    min-height: 25em;
+    width: 56em;
     background-color: #EE82EE;
 }
 
@@ -72,57 +100,40 @@
 /* PROPRIETÀ CONDIVISE BANNER */
 
 .container-banner {
-    min-height: 41em;
+    min-height: 37em;
     width: 100%;
 }
 
 .container-banner-big {
-    min-height: 83em;
+    min-height: 62em;
     width: 100%;
 }
 
 .bg-white {
-    min-height: 50em;
+    min-height: 37em;
     background-color: #ffffff;
 }
 
 .bg-gray {
     background-color: #D3D3D3;
-    min-height: 50em;
+    min-height: 37em;
 }
 
 .blue {
     background-color: #1E90FF;
-    min-height: 41em;
+    min-height: 31em;
     width: calc(100% / 3 * 2);
 }
 
 .pink {
     background-color: #EE82EE;
-    min-height: 41em;
-    width: calc(100% / 3);
-}
-
-.bg-white {
-    min-height: 50em;
-    background-color: #ffffff;
-}
-
-.blue {
-    background-color: #1E90FF;
-    min-height: 41em;
-    width: calc(100% / 3 * 2);
-}
-
-.pink {
-    background-color: #EE82EE;
-    min-height: 41em;
+    min-height: 31em;
     width: calc(100% / 3);
 }
 
 .green {
     background-color: #228B22;
-    min-height: 75em;
+    min-height: 55em;
     width: 100%;
 }
 
@@ -131,24 +142,24 @@
 /* PROPRIETÀ CONDIVISE FOOTER */
 
 .container-footer {
-    min-height: 50em;
+    min-height: 35em;
     width: 100%;
 }
 
 .bg-black {
     background-color: #23272A;
-    min-height: 50em;
+    min-height: 40em;
 }
 
 .aquamarine {
     background-color: #20B2AA;
-    min-height: 48em;
+    min-height: 35em;
     width: calc(100% / 3 * 2);
 }
 
 .red {
     background-color: #F08080;
-    min-height: 48em;
+    min-height: 35em;
     width: calc(100% / 3);
 }
 
